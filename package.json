@@ -1,9 +1,10 @@
 {
   "name": "passport-twitch-no-pkginfo",
-  "version": "1.0.3",
-  "description": "Twitch (OAuth) authentication strategies for Passport.",
+  "version": "1.0.4",
+  "description": "Twitch (OAuth) authentication strategies using the new Twitch API for Passport.",
   "keywords": [
     "passport",
+    "new",
     "twitch",
     "auth",
     "authn",
@@ -21,14 +22,18 @@
     "url": "http://github.com/endykaufman/passport-twitch-no-pkginfo/issues"
   },
   "author": {
-    "name": "Schmoopiie",
-    "email": "Schmoopiie@gmail.com",
-    "url": "http://www.schmoopiie.com/"
+    "name": "Dennis Plotnik",
+    "email": "plotnikd@gmail.com",
+    "url": "http://github.com/nigh7sh4de"
   },
   "contributors": [
     {
       "name": "Schmoopiie",
       "email": "Schmoopiie@gmail.com"
+    },
+    {
+      "name": "Dennis Plotnik",
+      "email": "plotnikd@gmail.com"
     },
     {
       "name": "EndyKaufman",
@@ -41,9 +46,10 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "./lib/passport-twitch",
+  "main": "./index.js",
   "dependencies": {
-    "passport-oauth2": "^1.1.2",
+    "jsonwebtoken": "^8.2.1",
+    "passport-oauth2": "^1.4.0",
     "pkginfo": "0.2.x"
   },
   "devDependencies": {
@@ -54,10 +60,10 @@
   },
   "maintainers": [
     {
-      "name": "Schmoopiie",
-      "email": "Schmoopiie@gmail.com"
+      "name": "Dennis Plotnik",
+      "email": "plotnikd@gmail.com"
     }
   ],
   "directories": {},
-  "homepage": "https://github.com/endykaufman/passport-twitch"
+  "homepage": "https://github.com/endykaufman/passport-twitch-no-pkginfo"
 }
