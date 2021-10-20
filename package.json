@@ -1,5 +1,5 @@
 {
-  "name": "passport-twitch",
+  "name": "passport-twitch-no-pkginfo",
   "version": "1.0.3",
   "description": "Twitch (OAuth) authentication strategies for Passport.",
   "keywords": [
@@ -15,16 +15,26 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Schmoopiie/passport-twitch.git"
+    "url": "git://github.com/endykaufman/passport-twitch-no-pkginfo.git"
   },
   "bugs": {
-    "url": "http://github.com/Schmoopiie/passport-twitch/issues"
+    "url": "http://github.com/endykaufman/passport-twitch-no-pkginfo/issues"
   },
   "author": {
     "name": "Schmoopiie",
     "email": "Schmoopiie@gmail.com",
     "url": "http://www.schmoopiie.com/"
   },
+  "contributors": [
+    {
+      "name": "Schmoopiie",
+      "email": "Schmoopiie@gmail.com"
+    },
+    {
+      "name": "EndyKaufman",
+      "email": "admin@site15.ru"
+    }
+  ],
   "licenses": [
     {
       "type": "MIT",
@@ -49,5 +59,5 @@
     }
   ],
   "directories": {},
-  "homepage": "https://github.com/Schmoopiie/passport-twitch"
+  "homepage": "https://github.com/endykaufman/passport-twitch"
 }
