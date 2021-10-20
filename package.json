@@ -1,6 +1,6 @@
 {
   "name": "passport-twitch-no-pkginfo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Twitch (OAuth) authentication strategies using the new Twitch API for Passport.",
   "keywords": [
     "passport",
